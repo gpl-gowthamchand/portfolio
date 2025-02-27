@@ -80,4 +80,13 @@ You can modify the following files to personalize the portfolio:
 ## 🤝 Contributing
 
 Contributions are welcome! If you have any ideas for improvement, feel free to fork the repository, submit a pull request, or open an issue with the "enhancement" tag.
+
+<div>
+ <p>
+   <strong>Credit : </strong>
+   <a href="https://github.com/pycoder2000">Parth Desai </a>
+ </p>
+
+</div>
+
 </div>
