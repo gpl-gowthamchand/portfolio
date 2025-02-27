@@ -14,8 +14,7 @@
   The original template is designed by <a href="https://github.com/timlrx" target="_blank">Timothy Lin</a> and can be found <a href="https://github.com/timlrx/tailwind-nextjs-starter-blog" target="_blank">here</a>. The demo for the same can be found <a href="https://tailwind-nextjs-starter-blog.vercel.app/" target="_blank">here</a>.
 </p>
 
-![demo](![alt text](image.png))
-
+![demo](![alt text](image-1.png)
 
 ## 🛠 Installation & Set Up
 
