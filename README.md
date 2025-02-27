@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/gpl-gowthamchand/Portfolio/blob/main/data/logo.svg" width="100" />
+  <img alt="Logo" src="public/static/images/logo.svg" width="100" />
 </div>
 
 <h1 align="center">
