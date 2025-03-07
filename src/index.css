@@ -1,0 +1,113 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 49 82% 97%;
+    --foreground: 240 10% 10%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 10%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 10%;
+    
+    --primary: 186 60% 57%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 49 70% 93%;
+    --secondary-foreground: 186 50% 40%;
+    
+    --muted: 49 60% 92%;
+    --muted-foreground: 240 5% 45%;
+    
+    --accent: 186 60% 90%;
+    --accent-foreground: 186 60% 40%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 49 30% 90%;
+    --input: 49 30% 90%;
+    --ring: 186 40% 50%;
+    
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 96%;
+    
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 96%;
+    
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 96%;
+    
+    --primary: 186 60% 57%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 186 60% 85%;
+    
+    --muted: 0 0% 10%;
+    --muted-foreground: 186 20% 70%;
+    
+    --accent: 0 0% 15%;
+    --accent-foreground: 186 60% 80%;
+    
+    --destructive: 0 62% 35%;
+    --destructive-foreground: 0 0% 96%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 186 60% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)];
+  }
+  
+  .section {
+    @apply py-20 px-6 md:px-12 lg:px-24 min-h-screen flex flex-col justify-center;
+  }
+  
+  .page-transition-container {
+    @apply w-full overflow-hidden;
+  }
+  
+  .page-transition-enter {
+    @apply animate-slide-left;
+  }
+  
+  .page-transition-exit {
+    @apply animate-fade-out;
+  }
+  
+  .link-hover {
+    @apply relative after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+  }
+  
+  .title-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent-foreground;
+  }
+}
