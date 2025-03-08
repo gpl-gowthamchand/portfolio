@@ -44,7 +44,7 @@ export default function About() {
               <CardContent className="p-0">
                 <div className="relative aspect-square overflow-hidden">
                   <img
-                    src="../public/myPhoto.jpg"
+                    src="./public/myPhoto.jpg"
                     alt="Your Name"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />
