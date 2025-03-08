@@ -19,7 +19,7 @@ export const experiences = [
     "company": "Eduskills (AICTE)",
     "period": "2024",
     "description": "Completed a virtual internship focused on Android development, gaining hands-on experience in Kotlin, Android Studio, and app development best practices.",
-    "certificateLink": "#"
+    "certificateLink": "https://drive.google.com/file/d/1VPKrwyYRhWxvLcvH0n22Gm-banOeq_FA/view?usp=drive_link"
   },
   {
     "title": "Google AI/ML Virtual Intern",
@@ -33,35 +33,35 @@ export const experiences = [
     "company": "Codsoft",
     "period": "2024",
     "description": "Worked on three projects: a tribute page for Captain America (Chris Evans), a job board website, and a language translation tool using JavaScript.",
-    "certificateLink": "#"
+    "certificateLink": "https://drive.google.com/file/d/1HaMRynzyPQF9yem2NKsBio6LP815Yo7y/view?usp=drive_link"
   },
   {
     "title": "Salesforce Developer Virtual Intern",
     "company": "Smart Intern Platform",
     "period": "Aug–Oct 2023",
     "description": "Completed an 8-week internship covering Salesforce fundamentals, Apex, Lightning Web Components (LWC), API integrations, and debugging.",
-    "certificateLink": "#"
+    "certificateLink": "https://drive.google.com/file/d/1cCw9yT-7QKhJ0VfW-NjhXa8SjGPQ_Z3i/view?usp=drive_link"
   },
   {
     "title": "Object Detection Hackathon Participant",
     "company": "KIET College",
     "period": "2022",
     "description": "Developed a computer vision-based object detection model as part of a hackathon challenge.",
-    "certificateLink": "#"
+    "certificateLink": "https://drive.google.com/file/d/1U89QMZQEWhNqjV1p18UMLP8OoMwSJzRi/view?usp=drive_link"
   },
   {
     "title": "Environment Activism Monitoring Hackathon Participant",
     "company": "KIET College",
     "period": "2023",
     "description": "Worked on an NLP-based project for tracking and analyzing environmental activism trends.",
-    "certificateLink": "#"
+    "certificateLink": "https://drive.google.com/file/d/1Dv14LD7wC3YmafXwrKTLgbRYiGOY5L-E/view?usp=drive_link"
   },
   {
     "title": "Customer Segmentation Project",
     "company": "Project Nest - KIET College",
     "period": "2023",
     "description": "Conducted data-driven customer segmentation using machine learning techniques.",
-    "certificateLink": "#"
+    "certificateLink": "https://drive.google.com/file/d/1B4ty7MikfXG3Mu2f8wcR49ChbNNWc-CZ/view?usp=drive_link"
   },
   {
     "title": "Voting Poll Hackathon Project",
@@ -75,7 +75,7 @@ export const experiences = [
     "company": "Microsoft Learn Student Ambassadors",
     "period": "2023",
     "description": "Completed a 6-week hands-on workshop on natural language processing (NLP).",
-    "certificateLink": "#"
+    "certificateLink": "https://drive.google.com/file/d/11MMk22Cub1SyUo8If6CIoId7y8oSKcFH/view?usp=drive_link"
   }
 ];
 
@@ -162,7 +162,7 @@ export const projects = [
     "technologies": ["Mbart", "NLP", "Python"],
     "image": "/placeholder.svg",
     "link": "#",
-    github: "https://github.com/yourusername/ecommerce-platform"
+    github: "https://github.com/KIET-2025-BATCH/K-AIDS-HS-T13"
   },
   {
    "title": "Customer Segmentation",
@@ -170,7 +170,7 @@ export const projects = [
     "technologies": ["Python", "Machine Learning", "Pandas"],
     "image": "/placeholder.svg",
     "link": "#",
-    github: "https://github.com/yourusername/task-manager"
+    github: "#"
   },
   {
     "title": "Voting Poll System",
@@ -178,15 +178,15 @@ export const projects = [
     "technologies": ["Flask", "HTML", "CSS"],
     "image": "/placeholder.svg",
     "link": "#",
-    github: "https://github.com/yourusername/social-dashboard"
+    github: "#"
   },
   {
     "title": "Language Translation using JavaScript",
     "description": "Built a simple language translation tool using JavaScript, allowing users to translate text dynamically.",
     "technologies": ["JavaScript", "HTML", "CSS"],
     "image": "/placeholder.svg",
-    "link": "#",
-    github: "https://github.com/yourusername/weather-app"
+    "link": "https://gpl-gowthamchand.github.io/language_translator_usingJS/",
+    github: "https://github.com/gpl-gowthamchand/language_translator_usingJS"
   },
   {
     "title": "Job Board Website",
@@ -194,15 +194,15 @@ export const projects = [
     "technologies": ["HTML", "CSS", "Bootstrap"],
     "image": "/placeholder.svg",
     "link": "#",
-    github: "https://github.com/yourusername/weather-app"
+    github: "https://github.com/gpl-gowthamchand/CODSOFT_jobboard_frontend"
   },
   {
     "title": "Tribute Page - Captain America (Chris Evans)",
     "description": "Created a tribute webpage dedicated to Captain America, highlighting the character's legacy and impact.",
     "technologies": ["HTML", "CSS"],
     "image": "/placeholder.svg",
-    "link": "#",
-    github: "https://github.com/yourusername/weather-app"
+    "link": "https://gpl-gowthamchand.github.io/CODSOFT/",
+    github: "https://github.com/gpl-gowthamchand/CODSOFT"
   },
   {
     "title": "Time Zone Converter",
@@ -210,7 +210,7 @@ export const projects = [
     "technologies": ["Python"],
     "image": "/placeholder.svg",
     "link": "#",
-    github: "https://github.com/yourusername/weather-app"
+    github: "#"
   },
   {
     "title": "Password Generator",
@@ -218,7 +218,7 @@ export const projects = [
     "technologies": ["Python"],
     "image": "/placeholder.svg",
     "link": "#",
-    github: "https://github.com/yourusername/weather-app"
+    github: "#"
   },
 ];
 

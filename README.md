@@ -1,7 +1,3 @@
-<div align="center">
-  <img alt="Logo" src="https://github.com/gpl-gowthamchand/portfolio/blob/main/data/logo.svg" width="100" />
-</div>
-
 # Personal Portfolio - *My Digital Space*
 
 This is my personal portfolio blog, built using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/), and hosted on [Vercel](https://www.vercel.com/). You can access it [here](http://localhost:3000/).
