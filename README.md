@@ -1,6 +1,3 @@
-<div align="center">
-  <img alt="Logo" src="https://github.com/gpl-gowthamchand/portfolio/raw/refs/heads/master/public/favicon.ico" width="100" />
-</div>
 
 # Personal Portfolio - *My Digital Space*
 
