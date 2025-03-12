@@ -64,13 +64,6 @@ export const experiences = [
     "certificateLink": "https://drive.google.com/file/d/1B4ty7MikfXG3Mu2f8wcR49ChbNNWc-CZ/view?usp=drive_link"
   },
   {
-    "title": "Voting Poll Hackathon Project",
-    "company": "KIET College",
-    "period": "2023",
-    "description": "Built a voting poll system using Flask, HTML, and CSS for a college hackathon.",
-    "certificateLink": "#"
-  },
-  {
     "title": "NLP Workshop Certification",
     "company": "Microsoft Learn Student Ambassadors",
     "period": "2023",
@@ -173,14 +166,6 @@ export const projects = [
     github: "#"
   },
   {
-    "title": "Voting Poll System",
-    "description": "Created a web-based voting poll system for a hackathon using Flask, HTML, and CSS.",
-    "technologies": ["Flask", "HTML", "CSS"],
-    "image": "/placeholder.svg",
-    "link": "#",
-    github: "#"
-  },
-  {
     "title": "Language Translation using JavaScript",
     "description": "Built a simple language translation tool using JavaScript, allowing users to translate text dynamically.",
     "technologies": ["JavaScript", "HTML", "CSS"],
@@ -204,22 +189,7 @@ export const projects = [
     "link": "https://gpl-gowthamchand.github.io/CODSOFT/",
     github: "https://github.com/gpl-gowthamchand/CODSOFT"
   },
-  {
-    "title": "Time Zone Converter",
-    "description": "Built a tool that converts time between different time zones using Python.",
-    "technologies": ["Python"],
-    "image": "/placeholder.svg",
-    "link": "#",
-    github: "#"
-  },
-  {
-    "title": "Password Generator",
-    "description": "Developed a random password generator using Python to create secure passwords.",
-    "technologies": ["Python"],
-    "image": "/placeholder.svg",
-    "link": "#",
-    github: "#"
-  },
+  
 ];
 
 // Contact information
