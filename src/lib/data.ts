@@ -158,6 +158,24 @@ export const projects = [
     github: "https://github.com/KIET-2025-BATCH/K-AIDS-HS-T13"
   },
   {
+    "title": "LanguageBridge",
+    "description": "LanguageBridge is a multilingual translation web application built as part of my final year project. It supports text translation, speech-to-text, text-to-speech, automatic language detection, and file import/export, using mBART, Google Translate, and LibreTranslate with fallback handling.",
+    "technologies": [
+      "React.js", 
+      "TypeScript", 
+      "Tailwind CSS", 
+      "Hugging Face (mBART)", 
+      "Google Translate API", 
+      "LibreTranslate API", 
+      "Web Speech API", 
+      "Vite", 
+      "Netlify"
+    ],
+    "image": "/placeholder.svg",
+    "link": "https://language-bridge.netlify.app/",
+    "github": "https://github.com/gpl-gowthamchand/LanguageBridge"
+  },
+  {
    "title": "Customer Segmentation",
     "description": "Implemented a customer segmentation model for targeted marketing strategies using clustering techniques.",
     "technologies": ["Python", "Machine Learning", "Pandas"],
