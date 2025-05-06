@@ -155,6 +155,15 @@ export const journeyPoints = [
 // Projects
 export const projects = [
   {
+    "title": "FlickrTalk",
+    "description": "FlickrTalk is a private messaging web application focused on user privacy and secure conversations. Built with TypeScript and Supabase for real-time messaging and authentication.",
+    "technologies": ["TypeScript", "Supabase", "React.js", "Tailwind CSS"],
+    "image": "/placeholder.svg",
+    "link": "https://flickr-talk.vercel.app/",
+    "github": "https://github.com/gpl-gowthamchand/FlickrTalk"
+  },
+  
+  {
     "title": "Machine Translation using Mbart",
     "description": "Final year project focused on building a machine translation system using pretrained MBART models to translate text between multiple languages effectively.",
     "technologies": ["Mbart", "NLP", "Python"],
