@@ -141,9 +141,14 @@ export const journeyPoints = [
     "description": "Completed an internship at Codsoft, building a tribute page, a job board website, and a language translation project."
   },
   {
-    "year": "2025",
+    "year": "2025 APR 20",
     "title": "Graduation",
     "description": "Completing my B.Tech and stepping into the professional world, ready to innovate and create!"
+  },
+  {
+    "year": "Presemt",
+    "title": "Looking for jobs",
+    "description": "Recently completed my B.Tech and now stepping into the professional world. Ready to learn, build, and contribute to innovative tech solutions."
   },
 ];
 
@@ -151,7 +156,7 @@ export const journeyPoints = [
 export const projects = [
   {
     "title": "Machine Translation using Mbart",
-    "description": "Developed a machine translation system using pretrained Mbart models to translate text between languages efficiently.",
+    "description": "Final year project focused on building a machine translation system using pretrained MBART models to translate text between multiple languages effectively.",
     "technologies": ["Mbart", "NLP", "Python"],
     "image": "/placeholder.svg",
     "link": "#",
@@ -159,7 +164,7 @@ export const projects = [
   },
   {
     "title": "LanguageBridge",
-    "description": "LanguageBridge is a multilingual translation web application built as part of my final year project. It supports text translation, speech-to-text, text-to-speech, automatic language detection, and file import/export, using mBART, Google Translate, and LibreTranslate with fallback handling.",
+    "description": "LanguageBridge is a multilingual translation web application inspired by my final year project. It offers text translation, speech-to-text, text-to-speech, automatic language detection, and file import/export features using mBART, Google Translate, and LibreTranslate APIs with fallback handling.",
     "technologies": [
       "React.js", 
       "TypeScript", 

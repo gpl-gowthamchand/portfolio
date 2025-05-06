@@ -45,7 +45,7 @@ export default function About() {
                 <div className="relative aspect-square overflow-hidden">
                   <img
                     src="./public/myPhoto.jpg" 
-                    alt="Your Name"
+                    alt="My Photo"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
