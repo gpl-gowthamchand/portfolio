@@ -146,7 +146,7 @@ export const journeyPoints = [
     "description": "Completing my B.Tech and stepping into the professional world, ready to innovate and create!"
   },
   {
-    "year": "Presemt",
+    "year": "Present",
     "title": "Looking for jobs",
     "description": "Recently completed my B.Tech and now stepping into the professional world. Ready to learn, build, and contribute to innovative tech solutions."
   },
