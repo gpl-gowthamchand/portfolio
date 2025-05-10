@@ -193,7 +193,7 @@ export const projects = [
    "title": "Customer Segmentation",
     "description": "Implemented a customer segmentation model for targeted marketing strategies using clustering techniques.",
     "technologies": ["Python", "Machine Learning", "Pandas"],
-    "image": "/placeholder.svg",
+    "image": "/CustSegMock.png",
     "link": "#",
     github: "#"
   },
