@@ -158,7 +158,7 @@ export const projects = [
     "title": "FlickrTalk",
     "description": "FlickrTalk is a private messaging web application focused on user privacy and secure conversations. Built with TypeScript and Supabase for real-time messaging and authentication.",
     "technologies": ["TypeScript", "Supabase", "React.js", "Tailwind CSS"],
-    "image": "/placeholder.svg",
+    "image": "/flickr.png",
     "link": "https://flickr-talk.vercel.app/",
     "github": "https://github.com/gpl-gowthamchand/FlickrTalk"
   },
@@ -167,7 +167,7 @@ export const projects = [
     "title": "Machine Translation using Mbart",
     "description": "Final year project focused on building a machine translation system using pretrained MBART models to translate text between multiple languages effectively.",
     "technologies": ["Mbart", "NLP", "Python"],
-    "image": "/placeholder.svg",
+    "image": "/Mbartmock.png",
     "link": "#",
     github: "https://github.com/KIET-2025-BATCH/K-AIDS-HS-T13"
   },
@@ -185,7 +185,7 @@ export const projects = [
       "Vite", 
       "Netlify"
     ],
-    "image": "/placeholder.svg",
+    "image": "/langBridge.png",
     "link": "https://language-bridge.netlify.app/",
     "github": "https://github.com/gpl-gowthamchand/LanguageBridge"
   },
@@ -201,7 +201,7 @@ export const projects = [
     "title": "Language Translation using JavaScript",
     "description": "Built a simple language translation tool using JavaScript, allowing users to translate text dynamically.",
     "technologies": ["JavaScript", "HTML", "CSS"],
-    "image": "/placeholder.svg",
+    "image": "/lang tran js.png",
     "link": "https://gpl-gowthamchand.github.io/language_translator_usingJS/",
     github: "https://github.com/gpl-gowthamchand/language_translator_usingJS"
   },
@@ -209,7 +209,7 @@ export const projects = [
     "title": "Job Board Website",
     "description": "Developed a fully responsive job board website that allows job seekers to browse and apply for jobs.",
     "technologies": ["HTML", "CSS", "Bootstrap"],
-    "image": "/placeholder.svg",
+    "image": "/jobboard.png",
     "link": "#",
     github: "https://github.com/gpl-gowthamchand/CODSOFT_jobboard_frontend"
   },
@@ -217,7 +217,7 @@ export const projects = [
     "title": "Tribute Page - Captain America (Chris Evans)",
     "description": "Created a tribute webpage dedicated to Captain America, highlighting the character's legacy and impact.",
     "technologies": ["HTML", "CSS"],
-    "image": "/placeholder.svg",
+    "image": "/tribute.png",
     "link": "https://gpl-gowthamchand.github.io/CODSOFT/",
     github: "https://github.com/gpl-gowthamchand/CODSOFT"
   },
