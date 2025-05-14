@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { about, experiences } from "@/lib/data";
@@ -8,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Briefcase } from "lucide-react";
 import { playSoundEffect } from "../SoundEffects";
 import ScrollToTop from "../ScrollToTop";
+import { HoverCard, HoverCardTrigger, HoverCardContent } from "../ui/hover-card";
 
 export default function About() {
   const navigate = useNavigate();
@@ -26,14 +26,20 @@ export default function About() {
             <div className="space-y-3">
               <h3 className="text-xl font-medium">My Skills</h3>
               <div className="flex flex-wrap gap-2">
-                {about.skills.map((skill) => (
-                  <Badge 
-                    key={skill} 
-                    variant="secondary" 
-                    className="px-3 py-1.5 text-sm font-medium bg-secondary/80 hover:bg-primary/10 transition-colors duration-300"
-                  >
-                    {skill}
-                  </Badge>
+                {about.skills.map((skill, index) => (
+                  <HoverCard key={skill}>
+                    <HoverCardTrigger asChild>
+                      <Badge
+                        variant="outline"
+                        className={`px-3 py-2 text-sm font-medium border-primary/30 hover:border-primary bg-secondary/30 hover:bg-primary/10 transition-all duration-300 shadow-sm transform hover:scale-105 cursor-pointer transition-transform duration-300 delay-${index * 50}`}
+                      >
+                        {skill}
+                      </Badge>
+                    </HoverCardTrigger>
+                    <HoverCardContent className="w-auto p-2 text-sm bg-card/80 backdrop-blur-md border-primary/20">
+                      Proficient in {skill}
+                    </HoverCardContent>
+                  </HoverCard>
                 ))}
               </div>
             </div>
@@ -48,7 +54,7 @@ export default function About() {
                     alt="My Photo"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/35 to-transparent"></div>
                 </div>
               </CardContent>
             </Card>
