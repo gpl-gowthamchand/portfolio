@@ -133,7 +133,14 @@ export const projects = [
     "link": "https://flickr-talk.vercel.app/",
     "github": "https://github.com/gpl-gowthamchand/FlickrTalk"
   },
-  
+  {
+    "title": "Tribute Page - Captain America (Chris Evans)",
+    "description": "Created a tribute webpage dedicated to Captain America, highlighting the character's legacy and impact.",
+    "technologies": ["HTML", "CSS"],
+    "image": "/tribute.png",
+    "link": "https://gpl-gowthamchand.github.io/CODSOFT/",
+    github: "https://github.com/gpl-gowthamchand/CODSOFT"
+  },
   {
     "title": "Machine Translation using Mbart",
     "description": "Final year project focused on building a machine translation system using pretrained MBART models to translate text between multiple languages effectively.",
@@ -185,12 +192,12 @@ export const projects = [
     github: "https://github.com/gpl-gowthamchand/CODSOFT_jobboard_frontend"
   },
   {
-    "title": "Tribute Page - Captain America (Chris Evans)",
-    "description": "Created a tribute webpage dedicated to Captain America, highlighting the character's legacy and impact.",
-    "technologies": ["HTML", "CSS"],
-    "image": "/tribute.png",
-    "link": "https://gpl-gowthamchand.github.io/CODSOFT/",
-    github: "https://github.com/gpl-gowthamchand/CODSOFT"
+    "title": "Mock Portfolio",
+    "description": "This is a customizable and reusable portfolio template built with a modern frontend stack. Designed for developers to fork and showcase their work professionally. Includes responsive design, clean layout, and easy configuration.",
+    "technologies": ["Next.js", "CSS Modules", "Tailwind CSS", "Geist Font"],
+    "image": "/mock-folio.png",
+    "link": "https://mockfolio.netlify.app/",
+    "github": "https://github.com/gpl-gowthamchand/portfolio_mock"
   },
   
 ];
