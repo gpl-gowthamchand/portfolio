@@ -1,4 +1,3 @@
-
 // Portfolio Data
 
 // About
@@ -73,40 +72,12 @@ export const experiences = [
 ];
 
 // Activities
-export const activities = [
-  {
-    "title": "Android Development",
-    "description": "Learned Kotlin, Android Studio, and app development fundamentals through hands-on projects and internships."
-  },
-  {
-    "title": "Web Development",
-    "description": "Gained experience in HTML, CSS, Bootstrap, JavaScript, ReactJS, and Flask while working on multiple projects."
-  },
-  {
-    "title": "Machine Learning Basics",
-    "description": "Developed a foundational understanding of machine learning concepts, including model training, evaluation, and data preprocessing."
-  },
-  {
-    "title": "Salesforce Development",
-    "description": "Learned Salesforce fundamentals, Apex programming, Lightning Web Components (LWC), API integration, and debugging."
-  },
-  {
-    "title": "Database Management",
-    "description": "Worked with SQL and MongoDB for designing, querying, and managing structured and unstructured data."
-  },
-  {
-    "title": "Version Control & Collaboration",
-    "description": "Used Git and GitHub for source code management, collaboration, and contribution to projects."
-  },
-  {
-    "title": "API Development & Testing",
-    "description": "Learned to build and test APIs using Postman, Flask, and RESTful principles."
-  },
-  {
-    "title": "NLP & Computer Vision",
-    "description": "Explored natural language processing (NLP) and object detection through hackathons and workshops."
-  },
-];
+// export const activities = [
+//   {
+//     "title": "Android Development",
+//     "description": "Learned Kotlin, Android Studio, and app development fundamentals through hands-on projects and internships."
+//   },
+// ];
 
 // Journey (Timeline)
 export const journeyPoints = [
