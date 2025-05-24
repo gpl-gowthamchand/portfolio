@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Activity as ActivityIcon, BookOpen, ExternalLink } from "lucide-react";
+import { Activity as ActivityIcon } from "lucide-react";
 
 type LangStats = Record<string, number>;
 
@@ -25,9 +25,10 @@ export default function Activity() {
         <p className="text-center text-muted-foreground mb-16 max-w-xl mx-auto">
           My latest activity and stats from various platforms.
         </p>
-        <div className="max-w-4xl mx-auto space-y-12">
-          {/* 1. GitHub General Stats */}
-          <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          {/* Left: GitHub Stats */}
+          <div className="space-y-8">
+            {/* 1. GitHub General Stats */}
             <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center">
               <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
                 <ActivityIcon className="h-5 w-5 text-primary" /> GitHub Stats
@@ -39,6 +40,7 @@ export default function Activity() {
                 loading="lazy"
               />
             </div>
+            {/* 2. Contribution Streak */}
             <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center">
               <h3 className="text-xl font-bold mb-4">Contribution Streak</h3>
               <img
@@ -48,39 +50,48 @@ export default function Activity() {
                 loading="lazy"
               />
             </div>
+            {/* 3. Contributions Calendar */}
+            <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center">
+              <h3 className="text-xl font-bold mb-4">Contributions</h3>
+              <img
+                src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=false&hide_title=true&hide=prs,issues,contribs&count_private=true&theme=default`}
+                alt="GitHub Contributions"
+                className="w-full max-w-md"
+                loading="lazy"
+              />
+            </div>
+            {/* 4. Most Used Languages */}
+            <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center">
+              <h3 className="text-xl font-bold mb-4">Most Used Languages</h3>
+              <img
+                src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=default`}
+                alt="Top Languages"
+                className="w-full max-w-md"
+                loading="lazy"
+              />
+            </div>
+            {/* 5. GitHub Trophies */}
+            <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center">
+              <h3 className="text-xl font-bold mb-4">GitHub Trophies</h3>
+              <img
+                src={`https://github-profile-trophy.vercel.app/?username=${username}&theme=flat&margin-w=10`}
+                alt="GitHub Trophies"
+                className="w-full max-w-2xl"
+                loading="lazy"
+              />
+            </div>
           </div>
-
-          {/* 2. Contributions Calendar */}
-          <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center">
-            <h3 className="text-xl font-bold mb-4">Contributions</h3>
-            <img
-              src={`https://github-readme-stats.vercel.app/api?username=${username}&show_icons=false&hide_title=true&hide=prs,issues,contribs&count_private=true&theme=default`}
-              alt="GitHub Contributions"
-              className="w-full max-w-md"
-              loading="lazy"
-            />
-          </div>
-
-          {/* 3. Most Used Languages */}
-          <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center">
-            <h3 className="text-xl font-bold mb-4">Most Used Languages</h3>
-            <img
-              src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=default`}
-              alt="Top Languages"
-              className="w-full max-w-md"
-              loading="lazy"
-            />
-          </div>
-
-          {/* 4. GitHub Trophies */}
-          <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center">
-            <h3 className="text-xl font-bold mb-4">GitHub Trophies</h3>
-            <img
-              src={`https://github-profile-trophy.vercel.app/?username=${username}&theme=flat&margin-w=10`}
-              alt="GitHub Trophies"
-              className="w-full max-w-2xl"
-              loading="lazy"
-            />
+          {/* Right: Codolio */}
+          <div className="space-y-8">
+            <div className="bg-card/60 rounded-xl shadow p-6 flex flex-col items-center min-h-[200px]">
+              <h3 className="text-xl font-bold mb-4">Codolio</h3>
+              <iframe
+                src="https://codolio.com/profile/gpl.gowthamchand"
+                title="Codolio Profile"
+                className="w-full"
+                style={{ minHeight: 400, border: "none", borderRadius: "0.75rem" }}
+              />
+            </div>
           </div>
         </div>
       </div>
