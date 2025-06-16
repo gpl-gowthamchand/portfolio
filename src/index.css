@@ -117,4 +117,8 @@
   .title-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent-foreground;
   }
+  
+  .bounce-infinite {
+    animation-iteration-count: infinite !important;
+  }
 }

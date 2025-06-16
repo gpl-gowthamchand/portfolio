@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { FileText } from "lucide-react";
@@ -78,9 +77,18 @@ export default function Hero() {
         >
           <span className="text-primary font-medium">Discover More</span>
           <div className="flex space-x-1">
-            <div className="w-1.5 h-1.5 rounded-full bg-primary animate-bounce" style={{ animationDelay: "0ms" }}></div>
-            <div className="w-1.5 h-1.5 rounded-full bg-primary animate-bounce" style={{ animationDelay: "150ms" }}></div>
-            <div className="w-1.5 h-1.5 rounded-full bg-primary animate-bounce" style={{ animationDelay: "300ms" }}></div>
+            <div
+              className="w-1.5 h-1.5 rounded-full bg-primary animate-bounce bounce-infinite"
+              style={{ animationDelay: "0ms", animationDuration: "1.5s" }}
+            ></div>
+            <div
+              className="w-1.5 h-1.5 rounded-full bg-primary animate-bounce bounce-infinite"
+              style={{ animationDelay: "150ms", animationDuration: "1.5s" }}
+            ></div>
+            <div
+              className="w-1.5 h-1.5 rounded-full bg-primary animate-bounce bounce-infinite"
+              style={{ animationDelay: "300ms", animationDuration: "1.5s" }}
+            ></div>
           </div>
         </div>
       </div>
