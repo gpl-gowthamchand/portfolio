@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { contact } from "@/lib/data";
-import { AtSign, Github, Linkedin, Copy, Check, Mail } from "lucide-react";
+import { AtSign, Github, Link, Copy, Check, Mail } from "lucide-react";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { playSoundEffect } from "../SoundEffects";
 
 export default function Contact() {
@@ -101,7 +102,7 @@ export default function Contact() {
                     }}
                   >
                     <div className="p-3 rounded-full bg-secondary/50">
-                      <Github className="h-6 w-6 text-primary" />
+                      <FaGithub className="h-6 w-6 text-primary" />
                     </div>
                     <p className="font-semibold">GitHub</p>
                   </Button>
@@ -118,7 +119,7 @@ export default function Contact() {
                     }}
                   >
                     <div className="p-3 rounded-full bg-secondary/50">
-                      <Linkedin className="h-6 w-6 text-primary" />
+                      <FaLinkedinIn className="h-6 w-6 text-primary" />
                     </div>
                     <p className="font-semibold">LinkedIn</p>
                   </Button>
