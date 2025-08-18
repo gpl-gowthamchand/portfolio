@@ -16,8 +16,9 @@ export default function Hero() {
       
       <div className="z-10 space-y-6 max-w-3xl mx-auto px-6">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-fade-in">
-          <span className="text-foreground text-2xl md:text-3xl lg:text-4xl font-medium">Hello, I'm </span>
-          <span className="block mt-2 text-primary">G P L Gowtham chand</span>
+          <span className="text-foreground text-2xl md:text-3xl lg:text-4xl font-medium">Hello, I'm</span>
+          <br />
+          <span className="text-primary whitespace-nowrap">G P L Gowtham chand</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground max-w-xl mx-auto animate-fade-in opacity-0" style={{ animationDelay: "200ms", animationFillMode: "forwards" }}>
