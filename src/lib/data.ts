@@ -191,6 +191,16 @@ export const projects = [
     "link": "#",
     github: "https://github.com/gpl-gowthamchand/CODSOFT_jobboard_frontend"
   },
+
+  {
+    "title": "Mock Portfolio 2",
+    "description": "A professional portfolio template built with Next.js 15.4.6, featuring modern UI/UX design, dark theme with purple accents, responsive layout, and performance optimizations. Includes code splitting, image optimization, and PWA capabilities.",
+    "technologies": ["Next.js 15.4.6", "React 18.3.1", "Tailwind CSS 3.0", "TypeScript", "ESLint", "Prettier", "Husky", "PostCSS"],
+    "image": "/mock-folio2.png",
+    "link": "https://mockportfolio02.netlify.app/",
+    "github": "https://github.com/gpl-gowthamchand/portfolio-mock02"
+  },
+
   {
     "title": "Mock Portfolio",
     "description": "This is a customizable and reusable portfolio template built with a modern frontend stack. Designed for developers to fork and showcase their work professionally. Includes responsive design, clean layout, and easy configuration.",
