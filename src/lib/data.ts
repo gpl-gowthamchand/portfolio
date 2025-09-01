@@ -7,7 +7,7 @@ export const about = {
   skills:[
     "Kotlin", "Android Studio", "ReactJS", "JavaScript", "Python", 
     "HTML", "CSS", "Bootstrap", "SQL", "MongoDB", "Git", "Postman",
-    "Machine Learning Basics", "Flask", "XML", "VS Code"
+    "Machine Learning Basics", "Flask", "XML", "VS Code", "C", "Linux", "TypeScript", "Supabase"
   ],
 };
 
