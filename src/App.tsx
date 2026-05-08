@@ -10,8 +10,16 @@ import JourneyPage from "./pages/JourneyPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
+import UnderDevelopment from "./pages/UnderDevelopment";
+
+// Set this to false when you're ready to launch your portfolio
+const SHOW_UNDER_DEVELOPMENT = true;
 
 function App() {
+  if (SHOW_UNDER_DEVELOPMENT) {
+    return <UnderDevelopment />;
+  }
+
   return (
     <BrowserRouter>
       <SoundEffects />
